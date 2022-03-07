@@ -1,0 +1,117 @@
+:root {    
+    /* ### Primary ### */
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+
+    /* ### Neutral ### */
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/bg-header-desktop.png);
+    background-size: contain;
+    background-repeat: no-repeat;    
+    background-position: top;
+    height: 550px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    margin-top: 130px;
+    margin-bottom: 40px;
+}
+
+.logo img {
+    height: 125px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.container h1 {
+    font-size:44px;
+    font-weight: 600;
+    color: var(--dark-grayish-blue);
+}
+
+.container h2 {
+    font-size: 20px;
+    max-width: 52ch;
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--grayish-blue);
+}
+
+.menu-buttons {
+    margin: 12px;
+    display: flex;    
+    margin-bottom: 0px;
+}
+
+.menu-buttons a {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 8px;
+    margin-top: 30px;
+    color: #ffffff;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    padding-right: 35px;
+    padding-left: 35px;
+    border-radius: 30px;
+}
+
+.buttom-ios {
+    background-color: var(--strong-cyan);
+    box-shadow: 0px 3px 1px #20a089;
+}
+
+.buttom-mac {
+    background-color: var(--light-blue);
+    box-shadow: 0px 3px 1px #5161da;
+}
+
+.main1 {
+    margin-top: 140px;
+}
+
+.main1 h1 {
+    font-size:36px;
+}
+
+.main1 h2 {
+    font-size: 18px;
+    max-width: 62ch;
+}
+
+.container_options {
+    display: flex;
+}
+
+.container_options img {
+    width: 720px;
+}
+
