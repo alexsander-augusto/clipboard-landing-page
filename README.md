@@ -30,7 +30,8 @@ Desktop Solution:
 
 Mobile Solution:
 
-<img src="https://github.com/shootowned/clipboard-landing-page/blob/main/images/mobile-design.png" alt="Mobile Solution" width="250"/>
+
+![](https://github.com/shootowned/clipboard-landing-page/blob/main/images/mobile-design.png)
 
 ### Links
 
