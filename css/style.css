@@ -123,17 +123,18 @@ header {
 .container_options {
     display: flex;
     align-items: center;
-    margin-top: 75px;        
-    transform: translateX(-11%);
+    margin-top: 75px;
 }
 
 .container_options img {
-    padding-right: 115px;
+    padding-right: 100px;
+    padding-left: 20px;
+    width: 100%;
 }
 
 .items {
     padding-bottom: 100px;
-    padding-right: 40px;
+    padding-right: 20px;
 }
 
 .items h1 {
@@ -149,7 +150,10 @@ header {
 
 .image_device {
     margin-top: 100px;
-    padding: 0px;
+}
+
+.image_device img {
+    width: 100%;
 }
 
 .main2 {
@@ -187,7 +191,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 150px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .title_bottom h1 {
@@ -269,4 +273,97 @@ footer {
 
 .attribution a {
     color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 768px) {
+    
+    .container_options {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container_options img {
+        padding-right: 20px;
+    }
+
+    .items {
+        padding-right: 0px;
+        padding: 20px;
+    }
+
+    .logos {
+        flex-direction: column;
+    }
+
+    .image_logos {
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 660px) {
+
+    .navigation {
+        flex: 1;
+    }
+
+    .navigation ul {
+        justify-content: center;
+        text-align: center;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .menu-buttons {
+        flex-direction: column;
+    }
+
+    .menu-buttons {
+        width: 80%;
+        text-align: center;
+    }
+
+    .menu-buttons a {
+        margin-top: 15px;
+    }
+
+    .container {
+        justify-content: space-evenly;
+    }
+
+    .menu1 {
+        margin-top: 80px;
+    }
+
+    .items2 {
+        flex-direction: column;
+    }
+
+    .icons {
+        padding-top: 80px;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 500px;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .navigation ul {
+        flex-direction: column;        
+    }
+
+    .navigation ul li {
+        padding: 10px;
+    }
+
+    .social_icons img {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
